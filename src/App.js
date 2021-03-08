@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
+import Card from './Card'
+import GuessCount from './GuessCount'
 
 class App extends Component {
   render() {

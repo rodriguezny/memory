@@ -88,6 +88,7 @@ class App extends Component {
             onClick={this.handleCardClick}
           />
         ))}
+        <HighScoreInput guesses={guesses}/>
         {won && <HallOfFame entries={FAKE_HOF}/>}
       </div>
     )
